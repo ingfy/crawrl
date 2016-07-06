@@ -1,0 +1,7 @@
+# Depenedncies
+
+node_modules/
+
+# Generated files
+
+*.csv

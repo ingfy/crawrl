@@ -1,0 +1,27 @@
+{
+  "name": "crawlr.js",
+  "version": "1.0.0",
+  "description": "Crawl a web page through its links and record statistics.",
+  "main": "crawlr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingfy/crawlr.js.git"
+  },
+  "author": "Yngve Svalestuen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ingfy/crawlr.js/issues"
+  },
+  "homepage": "https://github.com/ingfy/crawlr.js#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0",
+    "yargs": "^4.7.1"
+  },
+  "devDependencies": {
+    "request-promise": "^3.0.0"
+  }
+}
