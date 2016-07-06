@@ -7,7 +7,7 @@ Crawl webpages and time page loads.
 To install:
 
 ```
-npm install ingfy/crawlr --save
+npm install https://github.com/ingfy/crawlr.git --save
 ```
 
 To run from the command line:
