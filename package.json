@@ -8,20 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ingfy/crawlr.js.git"
+    "url": "git+https://github.com/ingfy/crawlr.git"
   },
   "author": "Yngve Svalestuen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ingfy/crawlr.js/issues"
+    "url": "https://github.com/ingfy/crawlr/issues"
   },
-  "homepage": "https://github.com/ingfy/crawlr.js#readme",
+  "homepage": "https://github.com/ingfy/crawlr#readme",
   "dependencies": {
     "cheerio": "^0.20.0",
     "request": "^2.72.0",
-    "yargs": "^4.7.1"
-  },
-  "devDependencies": {
+    "yargs": "^4.7.1",
     "request-promise": "^3.0.0"
   }
 }
