@@ -159,4 +159,4 @@ if (require.main === module) {
     main();
 }
 
-exports = crawl;
+module.exports = crawl;
