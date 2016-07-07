@@ -1,5 +1,5 @@
 {
-  "name": "crawlr.js",
+  "name": "crawlr",
   "version": "1.0.0",
   "description": "Crawl a web page through its links and record statistics.",
   "main": "crawlr.js",
