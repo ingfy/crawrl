@@ -78,6 +78,7 @@ Crawler.prototype.visitNextPage = function () {
 			
 			return {
 				url: next,
+				date: startTime,
 				time: result.time,
 				remaining: this.remaining.length,
 				errorCode: result.errorCode
@@ -86,6 +87,8 @@ Crawler.prototype.visitNextPage = function () {
 };
 
 function crawl(baseUrl, opts) {
+	if (!baseUrl) throw new Error('Missing base URL: ' + baseUrl);
+	
 	opts = opts || {};
 	opts.ignorePaths = opts.ignorePaths || [];
 	opts.ignoreQuery = opts.ignoreQuery !== undefined ? opts.ignoreQuery : true;
